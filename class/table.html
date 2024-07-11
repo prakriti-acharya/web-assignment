@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 500px;
+        }
+        tr:nth-child(even) {
+            background-color: #bfd6d6;
+          }
+
+    </style>
+    <!-- either we can use style tag for creating border in tables as above or directly in table tag -->
+</head>
+
+<body>
+    <!--<table border="1" cellspacing="0">  or we can put border directly through table tag-->
+    <table> 
+    <caption>Information</caption>      
+    <tr><!--odd child-->
+        <th>Name</th>
+        <th>Address</th>
+        <th>Phone no.</th>
+        <th>Email</th>
+     </tr>
+     <tr><!--even child-->
+        <td>Kriti</td>
+        <td>Bhaktapur</td>
+        <td>98433634871</td>
+        <td>kriti@gmail.com</td>
+     </tr>
+     <tr><!--odd child-->
+        <td>Akriti</td>
+        <td>Lalitpur</td>
+        <td>98432734876</td>
+        <td>akriti@gmail.com</td>
+     </tr>
+     <tr><!--even child-->
+        <td>Prakriti</td>
+        <td>Tinkune</td>
+        <td>98434773487</td>
+        <td>prakriti@gmail.com</td>
+     </tr>
+     <tr><!--odd child-->
+        <td>Arati</td>
+        <td>Dhading</td>
+        <td>98434773423</td>
+        <td>arati@gmail.com</td>
+     </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,44 @@
+.intro {
+    text-align: center;
+    margin: 1em 0em 0em 2em;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  #container {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    margin-top: 2em;
+  }
+  input[type="text"] {
+    height: 3em;
+    width: 25em;
+    padding-left: 20px;
+    text-align: justify;
+    border-radius: 10px;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.739);
+  }
+  button {
+    border: none;
+    padding: 1em 2em;
+    border-radius: 10px;
+    background-color: rgb(34, 185, 44);
+    color: white;
+    font-size: large;
+  }
+  .style {
+    background-color: rgba(37, 61, 238, 0.963);
+    width: fit-content;
+    padding: 0.3em 1em;
+    color: rgb(255, 255, 255);
+  }
+  #display {
+    text-align: center;
+    margin: 2em;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: medium;
+  }
